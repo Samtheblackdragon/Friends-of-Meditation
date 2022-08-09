@@ -1,0 +1,154 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends of Meditation</title>
+
+    <!--Logo-->
+    <link rel="icon" href="images/logo2.png">
+
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Font family-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montaga&display=swap" rel="stylesheet">
+
+    <!--Fontawesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <section class="header" id="home">
+        <nav>
+            <a href="index.html"><img src="images/logobg.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#products">PRODUCTS</a></li>
+                    <li><a href="#about">ABOUT US</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Yoga | Meditation | Sleep</h1>
+            <p>Yoga is like music. The rhythm of the body, the melody of the mind, 
+                and the harmony of the soul creates the symphony of life <br> ~ B.K.S. Iyengar </p>
+            <a href="https://friendsofmeditation.com/" class="hero-btn">Visit us to know more</a>
+        </div>
+    </section>
+
+<!-- Products -->
+    <section class="products" id="products">
+        <h1>Products</h1>
+        <p>Meditation, yoga and sleep accessories that helps in connecting you with divine</p>
+
+        <div class="row">
+            <div class="product-col">
+                <img src="images/meditate2.jpg" alt="">
+                <div class="layer">
+                    <h3><a href="https://friendsofmeditation.com/collections/meditation-accessories">Meditation</a></h3>
+                </div>
+            </div>
+            <div class="product-col">
+                <img src="images/yoga2.jpg" alt="">
+                <div class="layer">
+                    <h3><a href="https://friendsofmeditation.com/collections/yoga-accessories">Yoga</a></h3>
+                </div>
+            </div>
+            <div class="product-col">
+                <img src="images/sleep2.jpg" alt="">
+                <div class="layer">
+                    <h3><a href="https://friendsofmeditation.com/collections/travel-accessories">Sleep</a></h3>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Testimonials -->
+    <section class="testimonials">
+        <h1>Customer reviews</h1>
+        <p>Reviews given by our loyal customers from amazon</p>
+
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="images/user1.jpg" alt="">
+                <div>
+                    <p>I use it for chanting slokas and meditation. 
+                        You can actually sit for hours comfortably on this chair without any strain. 
+                        You cannot sit on a normal chair this long without some uneasiness. You can also do different Pranayamas.
+                        The chair is cleverly designed with a smaller seat, which supports the glutes. this prevents the lower legs and feet from pain and numbness.</p>
+                    <h3>Marlin Belford</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+            </div>
+
+            <div class="testimonial-col">
+                <img src="images/user2.jpg" alt="">
+                <div>
+                    <p>I bought the meditation chair for my Guruji for him to use during his long lectures and satsang sessions. 
+                        His comfort and happiness adds to my happiness.
+                        The size of the chair is fantastic plus the accessories are a real bonus and helps in managing a wide variety of postures with ease. Highly recommended</p>
+                    <h3>Henry Munchkin</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--Call to Action-->
+
+    <section class="cta" id="contact">
+        <h1>Order from anywhere in the world</h1>
+        <a href="mailto: support@friendsofmeditation.com" class="hero-btn">CONTACT US</a>
+    </section>
+
+
+<!--Footer-->
+
+    <section class="footer" id="about">
+        <h4>ABOUT US</h4>
+        <p>We are passionate about meditation, yoga, and relaxation. <br>
+            Our work involves innovation-led manufacturing of an eccentric range of products that facilitate ease in practicing yoga and meditation techniques for beginners as well as experts.</p>
+        <div class="icon">
+            <a href="https://www.facebook.com/friendsofmeditation"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/friendsofmeditation01/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.amazon.in/stores/FOMFriendsofMeditation/page/4368EE0F-9966-4BE1-BB3C-85C68E96A310?ref_=ast_bln "><i class="fa-brands fa-amazon"></i></a>
+        </div>
+        <p><i class="fa-solid fa-copyright"></i> Sumanraj Bera</p>
+        </section>
+
+<!-- JS for toggle menu -->
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+            navLinks.style.display = "block";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+            navLinks.style.display = "none";
+        }
+
+
+    </script>
+
+</body>
+</html>
